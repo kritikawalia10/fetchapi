@@ -1,0 +1,41 @@
+body{
+  background-image: linear-gradient(rgb(173, 14, 194),rgb(33, 32, 32));
+  background-repeat: no-repeat;
+  color: whitesmoke;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10%;
+}
+.temp{
+  font-size: 60px;
+  font-weight: bolder;
+  text-shadow: 4px 2px black;
+  padding: 6%;
+}
+.info{
+  padding: 4px;
+  display: flex;
+  font-size: 13px;
+}
+.text{
+  opacity: 0.39;
+  outline: none;
+  line-height: 25px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 2px solid goldenrod;
+}
+.location{
+  font-size: 25px;
+  padding: 3px;
+}
+.condition{
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: 400;
+}
+.temp-range{
+  padding: 5px;
+}
